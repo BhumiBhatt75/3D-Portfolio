@@ -38,14 +38,15 @@ const About = () => {
       <h2 className={styles.sectionHeadText}
       >Overview</h2>
     </motion.div>
-    <motion.p
-    variants={fadeIn("", "", 0.1, 1)}
-    className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-    >
-      As a Full Stack Developer with a neural twist, I don’t just build applications—I engineer intelligent ecosystems. 
-      Imagine React components that don’t just render UIs but anticipate user intent, powered by backend logic infused with AI/ML sorcery. 
-      From crafting pixel-perfect frontends to architecting serverless, AI-driven APIs, I thrive where creativity collides with algorithms. Ready to redefine what’s possible? Let’s code the future—one intelligent stack at a time. 🚀
-    </motion.p>
+   <motion.ul
+  variants={fadeIn("", "", 0.1, 1)}
+  className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] list-disc pl-6 space-y-3"
+>
+  <li>Adaptable at working effectively as both a cross-functional team member and an individual contributor.</li>
+  <li>A keen communicator with strong interpersonal, analytical, and relationship-building skills.</li>
+  <li>Proficient in programming skills, software designing, and development.</li>
+</motion.ul>
+
     <div className="mt-20 flex flex-wrap gap-10">
     {services.map((service, index)=>(
     <ServiceCard key={service.title} index={index} {...service} />

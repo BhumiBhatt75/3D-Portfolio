@@ -1,12 +1,14 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
+//computer
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import aistudymaster from "./aistudymaster.png"
+import flower from "./flower.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -31,7 +33,7 @@ import hackerrank from "./company/hackerrank.png";
 
 import booknook from "./booknook.png";
 import landingpage from "./landingpage.png";
-import flower from "./flower.png";
+import lvl from "./lvl.png";
 
 export {
   logo,
@@ -63,5 +65,7 @@ export {
   download,
   booknook,
   landingpage,
+  aistudymaster,
   flower,
+  lvl
 };

@@ -1,4 +1,5 @@
 import {
+  //flower
     mobile,
     backend,
     creator,
@@ -21,10 +22,11 @@ import {
     shopify,
     hackerrank,
     codealpha,
-    
+    aistudymaster,
     booknook,
     landingpage,
     flower,
+    lvl,
     threejs,
   } from "../assets";
   
@@ -121,56 +123,52 @@ import {
   
   const experiences = [
     {
-      title: "Java coder",
-      company_name: "HackerRank",
+      title: "200+ DSA Problems",
+      company_name: "HackerRank, Leetcode, GFGs",
       icon: hackerrank,
       iconBg: "#383E56",
       date: "June 2021 - Feb 2022",
       points: [
-        "Achieved a 5⭐ rating on HackerRank, demonstrating strong proficiency in competitive programming and problem-solving.",
-        "Developed a Snake and Ladder game using HTML, JavaScript, C++ and MongoDB showcasing my programming skills.",
-        "Solved 150+ LeetCode DSA problems, refining algorithms and problem-solving skills.",
+        "Certified 5-star coder in Java on HackerRank.",
+        "Engineered high-performance DSA solutions using advanced algorithms",
+        "Solved multiple Amazon assignments.",
         
       ],
     },
     {
-      title: "AI/ML Enthusiast",
-      company_name: "Summer Internship",
+      title: "GEN AI Enthusiast",
+      company_name: "Research Paper Publisher",
       icon: download,
       iconBg: "#E6DEDD",
       date: "June 2022 - Dec 2022",
       points: [
-        "Developed and integrated AI-driven solutions including machine learning models, chatbots, and text summarization into full-stack applications.",
-        "Implemented advanced filtering algorithms to enhance data processing and prediction accuracy for AI/ML applications.",
+        "Published research on Generative AI advancements in neural and prompt engineering.",
+        "Built prototypes using GenAI for text summarization, Q&A systems, and grammar correction.",
         "Built ML models for natural language processing (NLP), recommendation systems, and automation.",
         
       ],
     },
     {
-      title: "Frontend Developer Intern",
-      company_name: "CodeAlpha",
+      title: "Web UI/UX Developer Intern",
+      company_name: "Virtual Internship at CodeAlpha",
       icon: meta,
       iconBg: "#383E56",
       date: "Aug 2024 - Dec 2024",
       points: [
-        "Created a sleek and responsive landing page for TheLastingLatch company using REACT",
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Designed and developed software solutions by studying information needs and system workflows.",
+        " Design,develop software sol studying information needs, analyzing systems,work process, following SDLC"
       
       ],
     },
     {
-      title: "Developing SmartExam AI – Revolutionizing Student Learning with AI & ML",
+      title: "Developing StudyMaster AI – Revolutionizing Student Learning with GEN AI",
       company_name: "",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2025- Present",
       points: [
-        "Currently developing SmartExam AI, a full-stack platform integrating AI/ML models to enhance student learning and engagement.",
-        "Implementing intelligent tutoring systems, interactive learning tools, and personalized recommendations for a seamless study experience.",
-        "Building AI-powered assessment features, including automated grading, question generation, and adaptive learning paths for better student outcomes.",
-      ],
+        "Developed StudyMaster AI, a full-stack platform integrating Gen AI and ML models to enhance student learning and engagement.",
+        ],
     },
   ];
   
@@ -206,7 +204,7 @@ import {
     {
       name: "Book Recommendation",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An intelligent book recommendation system that leverages user behavior, preferences, and genre patterns. Delivers personalized reading suggestions using machine learning algorithms for enhanced user engagement.",
       tags: [
         {
           name: "react",
@@ -227,7 +225,7 @@ import {
     {
       name: "The Lasting Latch",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The Lasting Latch is a smart and secure solution designed to preserve what matters most. Combining durability with innovation, it ensures every connection stays strong and reliable.",
       tags: [
         {
           name: "react",
@@ -246,25 +244,25 @@ import {
       source_code_link: "https://thelastinglatch.vercel.app/",
     },
     {
-      name: "Virtual Bouquet",
+      name: "GEN AI StudyMaster",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+     "Simplifies academic writing with intelligent guidance and automation. From topic discovery to citations, it accelerates research with AI-powered insights and precision.",
       tags: [
         {
-          name: "javascript",
+          name: "GEN AI",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "Back-end dev",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "ML models",
           color: "pink-text-gradient",
         },
       ],
-      image: flower,
-      source_code_link: "https://gift-flowers-alpha.vercel.app/",
+      image: aistudymaster,
+      source_code_link: "https://paper-pilottt.vercel.app/",
     },
   ];
   
